@@ -19,5 +19,7 @@ class TestTddFizz < Minitest::Test
     def test_array_third_element_mined
         assert_equal("mined", fizzbuzz()[2])
     end
-
+    def test_array_fifth_element_mined
+        assert_equal("mines", fizzbuzz()[4])
+    end
 end
