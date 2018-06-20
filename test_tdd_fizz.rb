@@ -1,7 +1,7 @@
 require "minitest/autorun"
-require_relative "int_test.rb"
+require_relative "tdd_fizz.rb"
 
-class TestYourFunctions < Minitest::Test
+class TestTddFizz < Minitest::Test
 
     def test_assert_that_1_equals_1
         assert_equal(1, 1)
