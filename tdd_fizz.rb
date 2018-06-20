@@ -1,3 +1,5 @@
 def fizzbuzz()
-    Array.new(100)
+    arr = [*1..100]
+    arr[2] = "mined"
+    arr
 end
